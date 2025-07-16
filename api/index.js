@@ -42,7 +42,8 @@ app.use(cookieParser())
 const allowedOrigins = [
   "http://localhost:3000", // CRA (Client)
   "http://localhost:5173", // Vite (Admin)
-  "https://bookingbackend-production-36e0.up.railway.app", // Vite (Admin)
+  "https://azhibookingapp.netlify.app", // Vite (Admin)
+  "https://azam-booking-admin.netlify.app"
 ];
 
 app.use(cors({
